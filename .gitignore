@@ -1,0 +1,34 @@
+# Build artifacts
+build/
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+
+# Visual Studio files
+.vs/
+.vscode/
+*.vcxproj.user
+*.sln.docstates
+
+# Test output files
+test_*.el
+real_world_sample.el
+complex_test.el
+dll_test.el
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+*.swp
+*.swo
