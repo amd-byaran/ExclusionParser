@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ExclusionParser .NET Assembly Project
+  
+  This project creates a .NET assembly from the ExclusionParser native C++ library
+  using C++/CLI managed wrappers. The assembly provides seamless interoperability
+  with C#, VB.NET, and other .NET languages while maintaining the performance
+  and functionality of the native implementation.
+  
+  Author: AMD Advanced Micro Devices Inc. - Verification Team
+  Version: 2.0.0
+  Date: September 13, 2025
+-->
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+    <ProjectGuid>{2C8C8E4A-1234-5678-9ABC-DEF012345678}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>ExclusionParser.NET</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <UseOfMfc>false</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutputPath>bin\Debug\</OutputPath>
+    <IntermediateOutputPath>obj\Debug\</IntermediateOutputPath>
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateDebugInformation>true</GenerateDebugInformation>
+    <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    <Optimization>Disabled</Optimization>
+    <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutputPath>bin\Release\</OutputPath>
+    <IntermediateOutputPath>obj\Release\</IntermediateOutputPath>
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateDebugInformation>true</GenerateDebugInformation>
+    <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    <Optimization>MaxSpeed</Optimization>
+    <FunctionLevelLinking>true</FunctionLevelLinking>
+    <IntrinsicFunctions>true</IntrinsicFunctions>
+    <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+  </PropertyGroup>
+
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <CompileAsManaged>true</CompileAsManaged>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ExclusionParser.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+
+  <ItemGroup>
+    <ClCompile Include="src\ExclusionParser.NET.cpp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ClInclude Include="include\ExclusionParser.NET.h" />
+    <ClInclude Include="include\ExclusionTypes.NET.h" />
+    <ClInclude Include="include\ExclusionData.NET.h" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  
+</Project>

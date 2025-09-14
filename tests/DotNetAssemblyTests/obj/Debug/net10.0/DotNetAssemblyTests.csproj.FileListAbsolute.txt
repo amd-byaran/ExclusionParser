@@ -1,0 +1,15 @@
+C:\Users\byaran\OneDrive - Advanced Micro Devices Inc\programming\coverage_analyzer\ExclusionParser\tests\DotNetAssemblyTests\obj\Debug\net10.0\DotNetAssemblyTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byaran\OneDrive - Advanced Micro Devices Inc\programming\coverage_analyzer\ExclusionParser\tests\DotNetAssemblyTests\obj\Debug\net10.0\DotNetAssemblyTests.AssemblyInfoInputs.cache
+C:\Users\byaran\OneDrive - Advanced Micro Devices Inc\programming\coverage_analyzer\ExclusionParser\tests\DotNetAssemblyTests\obj\Debug\net10.0\DotNetAssemblyTests.AssemblyInfo.cs
+C:\Users\byaran\OneDrive - Advanced Micro Devices Inc\programming\coverage_analyzer\ExclusionParser\tests\DotNetAssemblyTests\obj\Debug\net10.0\DotNetAssemblyTests.csproj.CoreCompileInputs.cache
+C:\Users\byaran\OneDrive - Advanced Micro Devices Inc\programming\coverage_analyzer\ExclusionParser\tests\DotNetAssemblyTests\obj\Debug\net10.0\DotNetAssemblyTests.sourcelink.json
+C:\Users\byaran\OneDrive - Advanced Micro Devices Inc\programming\coverage_analyzer\ExclusionParser\tests\DotNetAssemblyTests\bin\Debug\net10.0\DotNetAssemblyTests.exe
+C:\Users\byaran\OneDrive - Advanced Micro Devices Inc\programming\coverage_analyzer\ExclusionParser\tests\DotNetAssemblyTests\bin\Debug\net10.0\DotNetAssemblyTests.deps.json
+C:\Users\byaran\OneDrive - Advanced Micro Devices Inc\programming\coverage_analyzer\ExclusionParser\tests\DotNetAssemblyTests\bin\Debug\net10.0\DotNetAssemblyTests.runtimeconfig.json
+C:\Users\byaran\OneDrive - Advanced Micro Devices Inc\programming\coverage_analyzer\ExclusionParser\tests\DotNetAssemblyTests\bin\Debug\net10.0\DotNetAssemblyTests.dll
+C:\Users\byaran\OneDrive - Advanced Micro Devices Inc\programming\coverage_analyzer\ExclusionParser\tests\DotNetAssemblyTests\bin\Debug\net10.0\DotNetAssemblyTests.pdb
+C:\Users\byaran\OneDrive - Advanced Micro Devices Inc\programming\coverage_analyzer\ExclusionParser\tests\DotNetAssemblyTests\obj\Debug\net10.0\DotNetAssemblyTests.dll
+C:\Users\byaran\OneDrive - Advanced Micro Devices Inc\programming\coverage_analyzer\ExclusionParser\tests\DotNetAssemblyTests\obj\Debug\net10.0\refint\DotNetAssemblyTests.dll
+C:\Users\byaran\OneDrive - Advanced Micro Devices Inc\programming\coverage_analyzer\ExclusionParser\tests\DotNetAssemblyTests\obj\Debug\net10.0\DotNetAssemblyTests.pdb
+C:\Users\byaran\OneDrive - Advanced Micro Devices Inc\programming\coverage_analyzer\ExclusionParser\tests\DotNetAssemblyTests\obj\Debug\net10.0\DotNetAssemblyTests.genruntimeconfig.cache
+C:\Users\byaran\OneDrive - Advanced Micro Devices Inc\programming\coverage_analyzer\ExclusionParser\tests\DotNetAssemblyTests\obj\Debug\net10.0\ref\DotNetAssemblyTests.dll
